@@ -1,5 +1,18 @@
+.frex {
+    display : flex;
+}
+
 .sample {
     height: 100px;
     width: 100px;
     border: solid black 1px;
+    margin: 0 10px;
+}
+
+
+.samplee {
+    height: 100px;
+    width : 100px;
+    border : solid black 1px;
+    margin: 0 10px;
 }
