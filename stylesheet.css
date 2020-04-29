@@ -17,6 +17,13 @@
     margin: auto;
 }
 
+/*@media screen and (max-width: 767px){
+    .frex ul {
+        display: initial;
+        
+    }
+}*/
+
 .frex ul li {
     height: 200px;
     width: 32%;
