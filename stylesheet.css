@@ -1,11 +1,62 @@
+.menu_under{
+    list-style-type: none;
+    display: flex;
+    margin: 60px 0 0 84px;
+    padding: 0;
+}
+
+.menu_under li {
+    margin: 0 20px 0 20px;
+    font-size: 25px;
+    color : rgb(71, 68, 68);
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+  cursor: pointer;
+}
+
+
+.menu_under li:first-child{
+    margin-left: 0;
+}
+
+.menu_under li:hover {
+    opacity: 0.7
+}
+
 .a {
-    margin: 60px auto;
+    margin: auto;
     /* display: flex; */
     width: 90%;
 }
 
 .a img {
     width: 100%;
+}
+
+.about {
+   text-align: center; 
+   margin-top: 40px;
+}
+
+.about span{
+    font-size: 30px;
+    margin: 25px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    color : rgb(71, 68, 68);
+    border-bottom: double 6px rgb(71, 68, 68);
+}
+
+.aboutus {
+    font-size: 20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    color : rgb(71, 68, 68);
+line-height: 3;
+text-align: center;
+
+}
+
+
+.frex {
+    margin : 40px 0;
 }
 
 .frex ul {
@@ -24,11 +75,10 @@
 }
 
 
-.frex ul li {
-    height: 200px;
+.frex ul li{
+    /* height: 200px; */
     width: 32%;
     max-width: 100%;
-    border: solid black 1px;
     /* margin: 40px 20px; */
     list-style: none;
     /* flex: 1; */
@@ -37,9 +87,10 @@
     box-shadow: 10px 10px 10px -4px rgb(220, 213, 213);
 }
 
-.frex ul li:nth-child(-n+4){
-    box-shadow: 10px 10px 10px -4px rgb(235, 126, 216); 
-} 
+.frex ul li img {
+    width: 100%;
+}
+
 
 @media screen and (max-width:767px){
     .frex ul li {
@@ -49,7 +100,7 @@
         border: solid black 1px;
         margin: 30px auto;
         list-style: none;
-        box-shadow: 10px 10px 10px -4px rgb(220, 213, 213);
+        box-shadow: 10px 10px 10px -4px rgb(103, 99, 99);
     }
 }
 
@@ -81,23 +132,10 @@
     border : solid 1px black;
 }  */
 
-.about {
-    font-size: 40px;
-    margin: 25px;
-    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
-    color : rgb(71, 68, 68);
-}
-
-.aboutus {
-    font-size: 20px; 
-    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
-    color : rgb(71, 68, 68);
-line-height: 2;
-
-}
 
 .b {
 width: 90%;
+margin: auto;
 }
 
 .n {
@@ -111,4 +149,16 @@ width: 90%;
     width: 10%;
     text-align: center;
     
+}
+
+.access_under{
+    text-align: center;
+    margin: 30px;
+}
+
+.access_under span{
+    font-size: 30px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    color : rgb(71, 68, 68);
+    border-bottom: double 6px rgb(71, 68, 68);
 }
