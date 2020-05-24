@@ -162,3 +162,20 @@ margin: auto;
     color : rgb(71, 68, 68);
     border-bottom: double 6px rgb(71, 68, 68);
 }
+
+.access_address{
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    text-align: center;
+}
+
+.access_img {
+    text-align: center;
+    margin: auto;
+    margin: auto;
+    width: 400px;
+}
+
+.access_img img{
+    width: 100%;
+    height: auto;
+}
