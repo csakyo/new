@@ -223,3 +223,15 @@ tr:nth-child(odd) td:first-child
     padding: 10px 30px;
     text-align: center;
 }*/
+
+.time_schedule{
+    text-align: center;
+    margin: 30px;
+}
+
+.time_schedule span{
+    font-size: 30px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    color: rgb(71, 68, 68);
+    border-bottom: double 6px rgb(71, 68, 68);
+}
