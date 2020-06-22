@@ -126,6 +126,11 @@ text-align: center;
     margin: 10px auto;
 }
 
+.middle_first, .middle_second{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
 /* .middle_under{
     width: 300px;
     height: 200px;
