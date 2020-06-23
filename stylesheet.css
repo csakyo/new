@@ -94,7 +94,7 @@ text-align: center;
 
 @media screen and (max-width:767px){
     .frex ul li {
-        height: 200px;
+        height: auto;
         width: 90%;
         max-width: 100%;
         border: solid black 1px;
@@ -119,16 +119,17 @@ text-align: center;
 
 .middle {
     display: flex;
-    height: 300px;
+    height: 500px;
     width: 90%;
     border: solid black 1px;
     max-width: 100%;
     margin: 10px auto;
+    border-collapse: collapse;
 }
 
 .middle_first, .middle_second{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: auto;
     border: solid 1px black;
 }
 /* .middle_under{
