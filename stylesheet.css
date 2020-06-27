@@ -111,9 +111,7 @@ text-align: center;
 }
 }
 
-.news span {
 
-}
 
 /* .frex ul li:nth-child(even) {
     box-shadow: 10px 10px 10px -4px rgb(214, 138, 182);
@@ -141,6 +139,14 @@ text-align: center;
     background: rgb(255, 255, 189);
 }
 
+.middle_second p
+{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    font-weight: bold;
+}
 
 
 /* .middle_under{
