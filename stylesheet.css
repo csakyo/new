@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-.about {
+.about ,.news{
    text-align: center; 
    margin-top: 40px;
 }
