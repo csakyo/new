@@ -174,6 +174,14 @@ margin: auto;
     
 }
 
+.news_under{
+    border: solid 1px black;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
 .access_under{
     text-align: center;
     margin: 30px;
