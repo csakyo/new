@@ -175,10 +175,19 @@ margin: auto;
     
 }
 
-.news_under {
+.news_container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.news_under{
+    display: flex;
+}
+
+.news_under div{
     border: solid 1px black;
-    height: 130px;
-    width: 90%;
+    height: 200px;
+    width: 50%;
     margin: auto;
     border-collapse: collapse;
 }
