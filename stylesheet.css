@@ -297,5 +297,6 @@ tr:nth-child(odd) td:first-child
     width: 100%;
     height: 300px;
     background-color: burlywood;
+    display: flex;
 }
 
