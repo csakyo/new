@@ -300,3 +300,10 @@ tr:nth-child(odd) td:first-child
     display: flex;
 }
 
+.copyright{
+    width: 50%;
+}
+
+.footer_list{
+    width:50%;
+}
