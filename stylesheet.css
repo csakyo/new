@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .menu_under{
     list-style-type: none;
     display: flex;
@@ -314,4 +318,22 @@ tr:nth-child(odd) td:first-child
     background: -webkit-linear-gradient(left, #e38257, #f2e4cf);
     background: -moz-linear-gradient(left, #0e86d0, #f2e4cf);
     /*background: linear-gradient(to right, #91040c, #f3baa1);*/
+}
+
+
+
+.float a{
+    height : 100px;
+    width: 100px;
+    background: blue;
+    position: fixed;
+    right: 0px; /* 調整を自由に  Feel free to adjust  */
+    bottom: 0;
+    display: block;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+}
+
+/*.float_right{
+    max-width: 100%;
 }
