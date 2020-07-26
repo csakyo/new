@@ -13,13 +13,13 @@
 //         break;
 // }
 
-for (let i = 1; i <= 50; i++){
+for (i = 1; i <= 15; i++){
     if (i % 15 === 0){
-        console.log("FizzBuzz");
+        console.log("aaa");
     }else if (i % 5 === 0){
-        console.log("Buzz");
+        console.log("bbb");
     }else if (i % 3 === 0){
-        console.log("Fizz");
+        console.log("ccc");
     }else {
         console.log(i);
     }
