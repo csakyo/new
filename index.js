@@ -13,14 +13,35 @@
 //         break;
 // }
 
-for (i = 1; i <= 15; i++){
-    if (i % 15 === 0){
-        console.log("aaa");
-    }else if (i % 5 === 0){
-        console.log("bbb");
-    }else if (i % 3 === 0){
-        console.log("ccc");
-    }else {
-        console.log(i);
-    }
-}
+/* ========================================================
+スクロールでトップに戻るボタンを表示
+=========================================================*/
+// スクロールして何ピクセルでアニメーションさせるか
+/*var px_change = 1;
+// スクロールのイベントハンドラを登録
+window.addEventListener('scroll', function(e) {
+	// 変化するポイントまでスクロールしたらクラスを追加
+	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	if ( scrollTop > px_change ) {
+		document.getElementById( "btn-backtotop" ).classList.add( "fadein" );
+ 
+	// 変化するポイント以前であればクラスを削除
+	} else {
+		document.getElementById( "btn-backtotop" ).classList.remove( "fadein" );
+	}
+});
+ 
+/* ========================================================
+トップに戻るボタンのスムーズスクロール
+=========================================================*/
+ 
+/*document.getElementById( "btn-backtotop" ).addEventListener('click', function(e) {
+	anime.remove("html, body");
+	anime({
+		targets: "html, body",
+		scrollTop: 0,
+		dulation: 600,
+		easing: 'easeOutCubic',
+	});
+	return false;
+});
