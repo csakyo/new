@@ -321,11 +321,11 @@ tr:nth-child(odd) td:first-child
 }
 
 
-/*.js-scroll-fadein {
+.js-scroll-fadein {
     transition: opacity 1s;
     visibility: hidden;
     opacity: 0;
-}*/
+}
 .js-scroll-fadein.is-fadein {
           visibility: visible;
           opacity: 1;

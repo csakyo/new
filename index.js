@@ -1,47 +1,26 @@
-//  color = "赤";
-
-// 以下にswitch文を書いてください。
-// switch(color) {
-//     case "金":
-//         console.log("ハワイ旅行券");
-//         break;
-//     case "赤":
-//         console.log("国内温泉巡り旅行券");
-//         break;
-//     case "青":
-//         console.log("商品券1万円");
-//         break;
-// }
-
-/* ========================================================
-スクロールでトップに戻るボタンを表示
-=========================================================*/
-// スクロールして何ピクセルでアニメーションさせるか
-/*var px_change = 1;
-// スクロールのイベントハンドラを登録
-window.addEventListener('scroll', function(e) {
-	// 変化するポイントまでスクロールしたらクラスを追加
-	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-	if ( scrollTop > px_change ) {
-		document.getElementById( "btn-backtotop" ).classList.add( "fadein" );
- 
-	// 変化するポイント以前であればクラスを削除
-	} else {
-		document.getElementById( "btn-backtotop" ).classList.remove( "fadein" );
+//スクロール量を取得する関数
+function getScrolled() {
+	return ( window.pageYOffset !== undefined ) ? window.pageYOffset: document.documentElement.scrollTop;
+  }
+	
+  //トップに戻るボタンの要素を取得
+  var topButton = document.getElementById( 'js-scroll-fadein' );
+			
+  //ボタンの表示・非表示
+  window.onscroll = function() {
+	( getScrolled() > 500 ) ? topButton.classList.add( 'is-fadein' ): topButton.classList.remove( 'is-fadein' );
+  }
+			
+  //トップに移動する関数
+  function scrollToTop() {
+	var scrolled = getScrolled();
+	window.scrollTo( 0, Math.floor( scrolled / 2 ) );
+	if ( scrolled > 0 ) {
+	  window.setTimeout( scrollToTop, 30 );
 	}
-});
- 
-/* ========================================================
-トップに戻るボタンのスムーズスクロール
-=========================================================*/
- 
-/*document.getElementById( "btn-backtotop" ).addEventListener('click', function(e) {
-	anime.remove("html, body");
-	anime({
-		targets: "html, body",
-		scrollTop: 0,
-		dulation: 600,
-		easing: 'easeOutCubic',
-	});
-	return false;
-});
+  };
+			
+  //イベント登録
+  topButton.onclick = function(){
+	scrollToTop();
+  };
