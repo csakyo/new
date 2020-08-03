@@ -24,3 +24,28 @@ function getScrolled() {
   topButton.onclick = function(){
 	scrollToTop();
   };
+
+
+  const fruits = [
+	{name: "リンゴ", price: 100, color: "赤色"},
+  // プロパティと値を追加してください。
+	{name: "バナナ", price: 200, color: "黄色", taste: "美味しい"},
+  // プロパティと値を追加してください。
+	{name: "ミカン", price: 150, color: "橙色", taste: "普通"},
+  // プロパティと値を追加してください。
+	{name: "ブドウ", price: 400, color: "紫色", taste: "まだ旬ではない"},
+  ];
+  
+  
+  for (let i = 0; i< fruits.length; i++) {
+	const fruit = fruits[i];
+	console.log("------------------------------");
+	console.log(`この果物は${fruit.name}です`); 
+	console.log(`価格は${fruit.price}円です`);
+	// 以下にif文を使ってコードを書いてください。
+  if (fruit.taste === undefined){
+	  console.log("味はわかりません");
+  }else{
+	  console.log(`味は${fruit.taste}です`);
+  }
+  }
