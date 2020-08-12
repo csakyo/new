@@ -451,3 +451,7 @@ tr:nth-child(odd) td:first-child
 .sidebar-submenu li a:before {
    content:none;
 }
+
+.footer_list ul li{
+    list-style: none;
+}
