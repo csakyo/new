@@ -64,10 +64,12 @@ function getScrolled() {
 // 	  }
 // 	});
 
-$(document.body).click(function () {
-	if ($("div:first").is(":hidden")) {
-	  $("div").slideDown("slow");
-	} else {
-	  $("div").hide();
-	}
-  });
+// $(document.body).click(function () {
+// 	if ($("div:first").is(":hidden")) {
+// 	  $("div").slideDown("slow");
+// 	} else {
+// 	  $("div").hide();
+// 	}
+//   });
+
+
