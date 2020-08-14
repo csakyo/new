@@ -255,7 +255,8 @@ tbody{
 }
 
 .time{
-    background-color: rgba(130, 239, 4, 0.23);
+    background: -webkit-linear-gradient(left, #e38257, #f2e4cf);
+    background: -moz-linear-gradient(left, #0e86d0, #f2e4cf);
     text-align: center;
     
 }
