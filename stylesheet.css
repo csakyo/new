@@ -255,8 +255,7 @@ tbody{
 }
 
 .time{
-    background: -webkit-linear-gradient(left, #e38257, #f2e4cf);
-    background: -moz-linear-gradient(left, #0e86d0, #f2e4cf);
+    
     text-align: center;
     
 }
@@ -380,7 +379,7 @@ tr:nth-child(odd) td:first-child
 
 /* sub menu */
 
-.sidebar-submenu{
+.sidebar-dropdown ul{
 	display: none;
 }
 

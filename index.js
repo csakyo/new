@@ -64,12 +64,13 @@ function getScrolled() {
 // 	  }
 // 	});
 
-// $(document.body).click(function () {
-// 	if ($("div:first").is(":hidden")) {
-// 	  $("div").slideDown("slow");
-// 	} else {
-// 	  $("div").hide();
-// 	}
-//   });
-
+$(function() {
+	var nav = $('.menu_under');
+	$('.sidebar-dropdown').mouseover(function(e) {
+	$('ul', this).stop().slideDown('fast');
+	})
+	.mouseout(function(e) {
+	$('ul', this).stop().slideUp('fast');
+	});
+	});
 
