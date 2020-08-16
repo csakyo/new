@@ -65,12 +65,15 @@ function getScrolled() {
 // 	});
 
 $(function() {
+
 	var nav = $('.menu_under');
+
 	$('.sidebar-dropdown').mouseover(function(e) {
 	$('ul', this).stop().slideDown('fast');
-	})
-	.mouseout(function(e) {
-	$('ul', this).stop().slideUp('fast');
-	});
 	});
 
+	$('.sidebar-dropdown').mouseout(function(e) {
+	$('ul', this).stop().slideUp('fast');
+	});
+	
+	});
