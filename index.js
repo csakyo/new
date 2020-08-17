@@ -75,5 +75,22 @@ $(function() {
 	$('.sidebar-dropdown').mouseout(function(e) {
 	$('ul', this).stop().slideUp('fast');
 	});
-	
+
 	});
+
+	$(document).ready(function () {
+		$('a').each((i, elem) => {
+			if(!$(elem).attr("target")){
+				if ($(elem).attr("href").includes("abc.to")){
+					$(elem).attr("target", "_blank");
+					$(elem).attr("rel", "nofollow");
+				}
+			}
+		})
+	});
+
+// 	$('a').attr({
+// 		href: 'http://www.flatrecipe.nir87.com',
+//   title: 'フラットレシピ',
+//   target: '_blank'
+// 	  });
