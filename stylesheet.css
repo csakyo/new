@@ -16,8 +16,14 @@ body{
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
   cursor: pointer;
   list-style: none;
-
 }
+
+.menu_under li a:hover {
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
 
 .menu_under li a{
     color : rgb(71, 68, 68);
@@ -391,6 +397,20 @@ tr:nth-child(odd) td:first-child
     position: absolute; 
     background: #e6c2c2;
     /* opacity: 0.9; */
+    padding-left: 0px;
+}
+
+.sidebar-dropdown ul li {
+    border-bottom: gray 1px solid;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.sidebar-dropdown ul li:hover {
+    background-color: #cacaca;
+    color: #000000;
+    cursor: pointer;
 }
 
 .left_sidebar li.dark_green_item:hover .sidebar-submenu li a {
