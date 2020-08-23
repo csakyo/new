@@ -18,6 +18,8 @@ body{
   list-style: none;
 }
 
+
+
 /* .menu_under li a:hover {
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
@@ -37,6 +39,7 @@ body{
 
 .menu_under li:hover {
     /* opacity: 0.7 */
+    text-decoration:underline;
 }
 
 .a {
@@ -74,7 +77,8 @@ text-align: center;
 
 
 .frex {
-    margin : 40px 0;
+    /* margin : 40px 0; */
+    max-width: 100%;
 }
 
 .frex ul {
@@ -84,6 +88,7 @@ text-align: center;
     padding: 0;
     width: 90%;
     margin: auto;
+    
 }
 
 @media screen and (max-width:767px){
@@ -128,6 +133,14 @@ text-align: center;
 
 }
 }
+
+.frex li .details dd{
+    width: 32%;
+    max-width: 100%;
+    height: 525px;
+    background-color: red; 
+}
+
 
 
 
