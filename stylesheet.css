@@ -494,7 +494,7 @@ tr:nth-child(odd) td:first-child
 }
 
 .footer_list ul li{
-    list-style: none;
+    /* list-style: none; */
 }
 
 
