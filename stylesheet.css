@@ -2,11 +2,12 @@ body{
     margin: 0;
 }
 
-.menu_under{
+.menu_under {
     list-style-type: none;
     display: flex;
-    margin: 60px 0 0 84px;
+    margin: 30px auto 0;
     padding: 0;
+    width: 90%;
 }
 
 .menu_under li {
@@ -230,9 +231,13 @@ margin: auto;
     width: auto;
 }
 
+.access {
+    max-width: 100%;
+}
 
 .access_container {
     display: flex;
+    max-width: 100%;
 }
 .access_under {
     text-align: center;
@@ -251,12 +256,14 @@ margin: auto;
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
     text-align: center;
 }
+.access_store{
+    width: 32%;
+    margin: auto;
+}
 
 .access_img {
     text-align: center;
     margin: auto;
-    margin: auto;
-    width: 400px;
 }
 
 .access_img img{
@@ -359,7 +366,6 @@ tr:nth-child(odd) td:first-child
   --------------------------------*/
   .arrow{
     position: fixed;
-    right: 12px;
     bottom: 12px;
     color: #fff;
     cursor: pointer;
