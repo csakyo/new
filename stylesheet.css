@@ -23,6 +23,12 @@ body{
   list-style: none;
 }
 
+@media screen and (max-width:767px){
+    .menu_under li{
+        margin: 0 5px 0 5px;
+    } 
+}
+
 
 
 /* .menu_under li a:hover {
@@ -288,6 +294,7 @@ margin: auto;
 .access_store{
     width: 32%;
     margin: auto;
+    text-align: center;
 }
 
 .access_img {
