@@ -207,7 +207,7 @@ text-align: center;
 .middle_second p
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4%;
     color: green;
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
     font-weight: bold;
@@ -274,6 +274,14 @@ margin: auto;
     display: flex;
     max-width: 100%;
 }
+
+@media screen and (max-width:767px){
+    .access_container {
+        display: initial;
+        max-width: 100%;
+    }
+}
+
 .access_under {
     text-align: center;
     margin: 50px auto;
